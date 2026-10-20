@@ -1,2 +1,6 @@
 # Stock-Sense-AI
-An AI model built for stock Reccomenadations
+
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
